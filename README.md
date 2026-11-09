@@ -3,7 +3,7 @@
 The Final Applied Lab (FAL) is DAT300's team capstone: 25% of your grade. Your team picks one of four business scenarios, each built on a real organization's real data
 (not a simulated dataset), works through the full pipeline you've practiced all semester (ingest, clean, explore, model or forecast), and delivers a written report and a presentation with a business recommendation.
 
-Each session from here opens with a short concept intro (Databricks AutoML, then MLflow) before team work time. You don't need to know any of those tools yet; each gets introduced right before you'd use it. Forecasting is a reading assignment instead of an in-class presentation — see Canvas.
+Each session from here opens with a short concept intro (Databricks AutoML, then MLflow) before team work time. You don't need to know any of those tools yet; each gets introduced right before you'd use it. Forecasting is a reading assignment instead of an in-class presentation; see Canvas.
 
 ### Team formation
 
@@ -11,21 +11,21 @@ Teams are 2-3 students, self-organized.
 ### The four scenarios
 
 1. **Telecom Customer Churn (Marketing)**: real data from a telecom
-   provider, 7,043 customers. Predict churn, find what drives it, and/or
-   segment customers by plan/usage — pick at least two. See
-   `scenario1-telco-marketing/scenario-brief.md`.
+   provider, 7,043 customers. You can predict churn, find what drives it,
+   or segment customers by plan and usage. Pick at least two of the three.
+   See `scenario1-telco-marketing/scenario-brief.md`.
 2. **Rossmann Store Sales (Operations)**: real daily sales from a German
-   drugstore chain, 1,115 stores. Forecast demand, segment stores,
-   and/or predict sales performance — pick at least two. See
+   drugstore chain, 1,115 stores. You can forecast demand, segment stores,
+   or predict sales performance. Pick at least two of the three. See
    `scenario2-rossmann-operations/scenario-brief.md`.
 3. **LendingClub Loans (Finance)**: real loan data from a peer-to-peer
-   lender, 293,105 loans issued in 2016. Predict default, predict
-   interest rate, and/or segment borrowers by risk — pick at least two.
-   See `scenario3-lendingclub-finance/scenario-brief.md`.
+   lender, 293,105 loans issued in 2016. You can predict default, predict
+   interest rate, or segment borrowers by risk. Pick at least two of the
+   three. See `scenario3-lendingclub-finance/scenario-brief.md`.
 4. **Hospital Readmissions (Healthcare)**: real de-identified clinical
-   data from 130 US hospitals, 101,766 diabetic patient encounters.
-   Predict 30-day readmission, find what drives it, and/or segment
-   patients by risk — pick at least two. See
+   data from 130 US hospitals, 101,766 diabetic patient encounters. You can
+   predict 30-day readmission, find what drives it, or segment patients by
+   risk. Pick at least two of the three. See
    `scenario4-hospital-healthcare/scenario-brief.md`.
 
 Each scenario's data is here on this template repository.
@@ -34,10 +34,9 @@ After we decide on a team name and randomly assign scenarios, I will create a te
 
 ### Working as a team
 
-Your team's code lives in a shared GitHub repository, not in separate individual notebooks. The instructor maintains one template repo in the class GitHub organization; your team's repo is created from that template and your team is added to it before team work time starts —
-you don't need to create or configure anything yourself.
+Your team's code lives in a shared GitHub repository, not in separate individual notebooks. The instructor maintains one template repo in the class GitHub organization; your team's repo is created from that template and your team is added to it before team work time starts. You don't need to create or configure anything yourself.
 
-Each teammate still has their own individual Free Edition Databricks account; there's no shared Databricks workspace. To collaborate, each team member connects their own Databricks workspace to the team's GitHub repo using Databricks Git folders (Repos), clones it, and pushes/pulls through GitHub to stay in sync with teammates — the usual
+Each teammate still has their own individual Free Edition Databricks account; there's no shared Databricks workspace. To collaborate, each team member connects their own Databricks workspace to the team's GitHub repo using Databricks Git folders (Repos), clones it, and pushes/pulls through GitHub to stay in sync with teammates. It's the usual
 pattern for a software team, just with everyone on separate Databricks accounts. 
 Report and presentation slides are not part of the repo; submit those separately through Canvas.
 
