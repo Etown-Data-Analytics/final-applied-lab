@@ -5,9 +5,7 @@ with over 1,100 stores. Management wants help understanding sales
 patterns and planning ahead: which stores are trending up or down, how
 promotions and holidays affect sales, and what to expect next.
 
-## Business questions (address at least 2 of these 3, not just one; you
-don't need to use all 1,115 stores, narrowing to a subset is a
-reasonable first step)
+## Business questions (address at least 2 of these 3)
 
 - How do sales vary by day of week, promotions, and holidays? What would
   you forecast for a store (or group of stores) going forward?
@@ -19,9 +17,12 @@ These are a starting point, not an exhaustive menu. If your team has a
 sharper question grounded in this data, or wants to push further (extra
 engineered features, more than one model compared, outside data brought
 in), go for it — just make sure it's still answerable with what's here,
-and run it by the instructor during scenario approval.
+and run it by the instructor.
 
 ## Data
+
+Source: [Rossmann Store Sales](https://www.kaggle.com/c/rossmann-store-sales)
+(Kaggle competition data, Rossmann drugstore chain).
 
 Two files (`rossmann_data.zip` on Canvas): `train.csv` (over 1,000,000
 rows, one row per store per day, Jan 2013 - Jul 2015) and `store.csv`
@@ -58,11 +59,3 @@ number of rows where `Open` is 1 but `Sales` is 0, a genuine anomaly
 worth deciding how to handle. `store.csv` has real missing values in the
 competition and Promo2 columns (not every store has a known competitor
 or participates in Promo2).
-
-## Where this connects to what you've learned
-
-Daily or weekly sales per store is a time series you can forecast, using
-the forecasting fundamentals from Session 11. Grouping stores into
-segments uses the same clustering skills, applied fresh to this data.
-Store attributes can feed a regression or classification model of sales
-performance.

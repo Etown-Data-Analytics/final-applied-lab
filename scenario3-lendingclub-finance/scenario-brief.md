@@ -1,29 +1,23 @@
 # Scenario: LendingClub Loans (Finance)
 
-This is real loan data from LendingClub, a peer-to-peer lending company,
-scoped to loans issued in 2016 whose outcome is known (paid off,
-charged off, or defaulted). Leadership wants a better handle on who's
-likely to default, whether the interest rate borrowers get actually
-lines up with their risk, and whether borrowers break into meaningful
-risk groups.
+This is real loan data from LendingClub, a peer-to-peer lending company, scoped to loans issued in 2016 whose outcome is known (paid off, charged off, or defaulted). Leadership wants a better handle on who's likely to default, whether the interest rate borrowers get actually
+lines up with their risk, and whether borrowers break into meaningful risk groups.
 
 ## Business questions (address at least 2 of these 3, not just one)
 
-- What borrower characteristics predict default, and how good is a
-  model built on them compared to just guessing the majority outcome?
+- What borrower characteristics predict default, and how good is a  model built on them compared to just guessing the majority outcome?
 - Does the interest rate a borrower gets line up with their
-  creditworthiness? What would you predict a fair rate to be from their
-  characteristics?
-- Can you group borrowers into meaningful risk tiers, and recommend a
-  different lending policy for each?
+  creditworthiness? What would you predict a fair rate to be from their characteristics?
+- Can you group borrowers into meaningful risk tiers, and recommend a  different lending policy for each?
 
-These are a starting point, not an exhaustive menu. If your team has a
-sharper question grounded in this data, or wants to push further (extra
-engineered features, more than one model compared, outside data brought
-in), go for it — just make sure it's still answerable with what's here,
-and run it by the instructor during scenario approval.
+These are a starting point, not an exhaustive menu. If your team has a sharper question grounded in this data, or wants to push further (extra engineered features, more than one model compared, outside data brought in), go for it — just make sure it's still answerable with what's here,
+and run it by the instructor for approval.
 
 ## Data
+
+Source: [LendingClub loan data](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+(via Kaggle; full dataset covers accepted loans 2007-2018, scoped here
+to loans issued in 2016).
 
 One file, `loans_2016.csv` (`lendingclub_data.zip` on Canvas), 293,105
 loans issued in 2016 with a known final outcome.
@@ -51,17 +45,4 @@ loans issued in 2016 with a known final outcome.
 
 ## Known data-quality quirks
 
-This is real data, not cleaned for you. At minimum: `emp_length` has a
-substantial number of blank values, `dti` and `revol_util` have a
-smaller number of blanks, and `loan_status` is the raw text outcome, not
-a 0/1 flag, you'll need to derive your own default flag from it
-(Charged Off and Default both count as a default; decide how you treat
-each, and state your rule).
-
-## Where this connects to what you've learned
-
-A derived default flag is a classification target with a realistic
-(not 50/50) class imbalance, about 23% default, so a majority-class
-baseline comparison matters here too. `int_rate` is a continuous
-regression target. Grouping borrowers into risk tiers uses the same
-clustering skills, applied fresh to this data.
+This is real data, not cleaned for you. At minimum: `emp_length` has a substantial number of blank values, `dti` and `revol_util` have a smaller number of blanks, and `loan_status` is the raw text outcome, not a 0/1 flag, you'll need to derive your own default flag from it (Charged Off and Default both count as a default; decide how you treat each, and state your rule).

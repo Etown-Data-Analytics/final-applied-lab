@@ -22,7 +22,10 @@ and run it by the instructor during scenario approval.
 
 ## Data
 
-One file, `telco_churn.csv` (`telco_data.zip` on Canvas), one row per
+Source: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+(IBM sample telecom data, via Kaggle).
+
+One file, `telco_churn.csv`, one row per
 customer, 7,043 customers.
 
 | Column | Meaning |
@@ -42,11 +45,5 @@ customer, 7,043 customers.
 This is real data, not cleaned for you. At minimum: `TotalCharges` looks
 numeric but is stored as text, and a handful of rows have a blank value
 in it (customers with 0 months of tenure, who haven't been charged yet).
-Decide how you'll handle that column and state your rule.
+Decide how you'll handle that column and state your rule. Check for more issues.
 
-## Where this connects to what you've learned
-
-`Churn` is a classification target with a realistic (not 50/50) class
-split, about 27% churn, so a majority-class baseline comparison matters
-here too. Grouping customers by tenure/charges/services uses the same
-clustering skills, applied fresh to this data.
