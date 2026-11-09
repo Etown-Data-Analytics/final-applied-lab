@@ -1,18 +1,12 @@
 # DAT300 Final Applied Lab: Report & Presentation Template
 
-Copy this document for your team. Replace each prompt (in *italics*)
-with your own content, and delete the prompt text once you've written
-yours. This structure matches what `fal-rubric.md` actually grades;
-follow it and you'll naturally cover every component.
+Replace each prompt (in *italics*) with your own content, and delete the prompt text once you've written yours. This structure matches the rubric.
 
 ## Written report (submitted as a PDF)
 
 ### Team & scenario
 
-*List your team members and which scenario you chose (Telecom Customer
-Churn, Rossmann Store Sales, LendingClub Loans, or Hospital
-Readmissions). State which business question(s) from the scenario brief
-you pursued.*
+*List your team members and which scenario you chose (Telecom Customer Churn, Rossmann Store Sales, LendingClub Loans, or Hospital Readmissions). State which business question(s) from the scenario brief you pursued.*
 
 ### Executive summary (about half a page)
 
@@ -20,12 +14,11 @@ you pursued.*
 
 ### Business questions
 
-*What questions are you answering (at least two of the scenario brief's business-question types, per `fal-rubric.md`), and why does each matter to this business? One or two paragraphs per question. Tie them back to the scenario brief's framing; if you added your own question, explain
-how it's still grounded in this data.*
+*What questions are you answering (at least two of the scenario brief's business-question types, per `fal-rubric.md`), and why does each matter to this business? One or two paragraphs per question. Tie them back to the scenario brief's framing; if you added your own question, explain how it's still grounded in this data.*
 
 ### Data and approach
 
-*What data did you use (file(s), row count, time range)? What specific data-quality issues did you find (check the scenario brief's "known data-quality quirks" section, plus anything you found yourself), and what rule did you apply to each one? What technique(s) did you use (classification, regression, clustering, and/or forecasting), and why does that technique fit the business question you're answering, rather than being the one that was most recently taught?*
+*What data did you use (file(s), row count, time range)? What specific data-quality issues did you find (check the scenario brief's "known data-quality quirks" section, plus anything you found yourself), and what rule did you apply to each one? What technique(s) did you use (classification, regression, clustering, and/or forecasting), and why does that technique fit the business question you're answering?*
 
 ### Findings
 
@@ -33,7 +26,7 @@ how it's still grounded in this data.*
 
 ### Recommendation
 
-*What should the business actually do, based on your findings? Be specific. "Target this segment with a retention offer before their renewal date" is a recommendation; "this segment is more likely to churn" is just a restatement of your finding. If you have more than one recommendation, say which one you'd prioritize first and why.*
+*What should the business actually do, based on your findings? Be specific. If you have more than one recommendation, say which one you'd prioritize first and why.*
 
 ### Limitations (a short paragraph)
 
@@ -45,22 +38,7 @@ A reasonable slide-by-slide outline, adjust to fit your story:
 
 1. Title, team members, scenario chosen.
 2. The business question (why it matters).
-3. Your approach (data, cleaning decisions, technique), kept brief,
-   this is not the most interesting part to an audience.
-4. Your key finding(s), with the baseline comparison visible on the
-   slide, not just mentioned verbally.
-5. Your recommendation, stated plainly, this should be the slide people
-   remember.
+3. Your approach (data, cleaning decisions, technique), kept brief, this is not the most interesting part to an audience.
+4. Your key finding(s), with the baseline comparison visible on the slide, not just mentioned verbally.
+5. Your recommendation, stated plainly, this should be the slide people remember.
 6. Questions.
-
-
-## Pre-submission checklist
-
-Run through this before you submit. Each item maps directly to
-something `fal-rubric.md` grades.
-
-- [ ] Every data-quality issue named in the scenario brief is handled.
-- [ ] You addressed at least two of the scenario brief's business-question types, and your technique(s) match each one.
-- [ ] Every model result is reported next to a meaningful baseline.
-- [ ] Every finding has a specific, actionable recommendation whenever possible.
-- [ ] A reader who doesn't code can follow your report start to finish.

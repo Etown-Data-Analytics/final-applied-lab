@@ -7,8 +7,7 @@ Each session from here opens with a short concept intro (Databricks AutoML, then
 
 ### Team formation
 
-Teams are 2-3 students, self-organized. If you don't have a team yet, just say so in class and the instructor will help match you with others looking for a team.
-
+Teams are 2-3 students, self-organized. 
 ### The four scenarios
 
 1. **Telecom Customer Churn (Marketing)**: real data from a telecom
